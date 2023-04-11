@@ -32,6 +32,11 @@ export default () => {
     overpayments
   });
 
+  const uselessFunction = (uselessParameter) => {
+    uselessParameter += 1;
+    return uselessParameter
+  }
+
   return (
     <div>
       <nav className="navbar navbar-default">
